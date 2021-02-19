@@ -6,7 +6,7 @@ channel:
   control_state: "OFF"
   video_insertion:
     enable: false
-    acquisition_point_id: "nbc-news"
+    acquisition_point_id: "nbc-news1"
     time_offset: 0       
   publish_name: "nbc-news"
   is_sport: false
