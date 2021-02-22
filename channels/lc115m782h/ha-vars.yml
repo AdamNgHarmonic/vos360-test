@@ -12,11 +12,6 @@ high_availability:
     grooming:
       video_grooming:
         pid: 481
-        closed_caption:
-        - language: ENG
-          service_number: 1
-          digital_cc: 0
-          default_subtitle: true
       audio_grooming:
       - pid: 482
         language: ENG
@@ -24,22 +19,16 @@ high_availability:
       scte35_grooming:
       - pid: 500
         skip_processing: false
-      cc_conversion_mode: EIA608
     srt:
-      host: egress-5ab867c74ec0390058d67126.lrs.vos360.video
+      host: egress-5ab867c74ec0390058d67133.lrs.vos360.video
       port: 7086
       decryption_type: AES_256
-      decryption_key: AIp20gBMTd91vG4yiZm6
+      decryption_key: KgvBxZ9PHwSck3u4Al3u
   source_b:
     program_num: 1
     grooming:
       video_grooming:
         pid: 481
-        closed_caption:
-        - language: ENG
-          service_number: 1
-          digital_cc: 0
-          default_subtitle: true
       audio_grooming:
       - pid: 482
         language: ENG
@@ -47,9 +36,8 @@ high_availability:
       scte35_grooming:
       - pid: 500
         skip_processing: false
-      cc_conversion_mode: EIA608
     srt:
-      host: egress-5ab867c74ec0390058d67326.lrs.vos360.video
+      host: egress-5ab867c74ec0390058d67333.lrs.vos360.video
       port: 7086
       decryption_type: AES_256
-      decryption_key: jCZwgLvuDYoCiJ74U5Zv
+      decryption_key: FeN32ssduLMpBQu6LgB7

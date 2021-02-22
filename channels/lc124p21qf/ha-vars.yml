@@ -22,14 +22,14 @@ high_availability:
         language: ENG
         skip_processing: false
       scte35_grooming:
-      - pid: 500
+      - pid: 309
         skip_processing: false
       cc_conversion_mode: EIA608
     srt:
-      host: egress-5ab867c74ec0390058d67126.lrs.vos360.video
+      host: egress-5ab867c74ec0390058d67144.lrs.vos360.video
       port: 7086
       decryption_type: AES_256
-      decryption_key: AIp20gBMTd91vG4yiZm6
+      decryption_key: VdxcXjqY1rBOvqmO4X7J
   source_b:
     program_num: 1
     grooming:
@@ -45,11 +45,11 @@ high_availability:
         language: ENG
         skip_processing: false
       scte35_grooming:
-      - pid: 500
+      - pid: 309
         skip_processing: false
       cc_conversion_mode: EIA608
     srt:
-      host: egress-5ab867c74ec0390058d67326.lrs.vos360.video
+      host: egress-5ab867c74ec0390058d67344.lrs.vos360.video
       port: 7086
       decryption_type: AES_256
-      decryption_key: jCZwgLvuDYoCiJ74U5Zv
+      decryption_key: Emy1PBgx3LCs2LkKPHZK

@@ -1,6 +1,6 @@
 no_verify: null
 channel:
-  name: lc102s5icf_NBC_News_NOW
+  name: lc116wxfpw_Pet_Collective
   id: '{{channel_id}}'
   control_state: ACTIVATED
   signal_loss_slate:
@@ -15,7 +15,7 @@ channel:
       password: rw4uYdzszBXXnoG9
       resources:
       - profile_name: CBC
-        resource_id: lc102_nbc_news_now
+        resource_id: lc116_pet_collective
         cmaf: null
     cpix_cks_ctr:
       kms_url: https://harmonic:rw4uYdzszBXXnoG9@cks-thirdparty.ovp.peacocktv.com/cks/cpix/v2/US-LINEAR-1-CENC/{contentId}?keyIdFormat=UUID
@@ -24,13 +24,13 @@ channel:
       password: rw4uYdzszBXXnoG9
       resources:
       - profile_name: CTR
-        resource_id: lc102_nbc_news_now
+        resource_id: lc116_pet_collective
         cmaf: null
-  publish_name: lc102s5icf
+  publish_name: lc116wxfpw
   is_sport: false
   has_time_shift: false
   single_service: true
-  transcoding_profile_default: 849492a0-7d44-5ea2-5343-431648b4d3b1
-  transcoding_profile_sport: 849492a0-7d44-5ea2-5343-431648b4d3b1
-  destination_profile_default: 93826ace-9e53-bfad-fd33-54b28d266505
-  destination_profile_sport: 93826ace-9e53-bfad-fd33-54b28d266505
+  transcoding_profile_default: 13f757ce-1f7b-7640-8bdd-4661054e5291
+  transcoding_profile_sport: 13f757ce-1f7b-7640-8bdd-4661054e5291
+  destination_profile_default: 83826ace-9e53-bfad-fd33-54b28d266507
+  destination_profile_sport: 83826ace-9e53-bfad-fd33-54b28d266507

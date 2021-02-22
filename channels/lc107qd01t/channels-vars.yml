@@ -1,6 +1,6 @@
 no_verify: null
 channel:
-  name: lc102s5icf_NBC_News_NOW
+  name: lc107qd01t_Comedy_Dynamics
   id: '{{channel_id}}'
   control_state: ACTIVATED
   signal_loss_slate:
@@ -15,7 +15,7 @@ channel:
       password: rw4uYdzszBXXnoG9
       resources:
       - profile_name: CBC
-        resource_id: lc102_nbc_news_now
+        resource_id: lc107_comedy_dynamics
         cmaf: null
     cpix_cks_ctr:
       kms_url: https://harmonic:rw4uYdzszBXXnoG9@cks-thirdparty.ovp.peacocktv.com/cks/cpix/v2/US-LINEAR-1-CENC/{contentId}?keyIdFormat=UUID
@@ -24,9 +24,9 @@ channel:
       password: rw4uYdzszBXXnoG9
       resources:
       - profile_name: CTR
-        resource_id: lc102_nbc_news_now
+        resource_id: lc107_comedy_dynamics
         cmaf: null
-  publish_name: lc102s5icf
+  publish_name: lc107qd01t
   is_sport: false
   has_time_shift: false
   single_service: true

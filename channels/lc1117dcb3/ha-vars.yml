@@ -26,10 +26,10 @@ high_availability:
         skip_processing: false
       cc_conversion_mode: EIA608
     srt:
-      host: egress-5ab867c74ec0390058d67126.lrs.vos360.video
+      host: egress-5ab867c74ec0390058d67128.lrs.vos360.video
       port: 7086
       decryption_type: AES_256
-      decryption_key: AIp20gBMTd91vG4yiZm6
+      decryption_key: Tf4pQtb48cSIb7zynYDe
   source_b:
     program_num: 1
     grooming:
@@ -49,7 +49,7 @@ high_availability:
         skip_processing: false
       cc_conversion_mode: EIA608
     srt:
-      host: egress-5ab867c74ec0390058d67326.lrs.vos360.video
+      host: egress-5ab867c74ec0390058d67328.lrs.vos360.video
       port: 7086
       decryption_type: AES_256
-      decryption_key: jCZwgLvuDYoCiJ74U5Zv
+      decryption_key: xqvfwGAznLB5AjOauddx

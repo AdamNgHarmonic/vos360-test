@@ -8,48 +8,42 @@ high_availability:
     client_id: '{{client_id_b}}'
     client_secret: '{{client_secret_b}}'
   source_a:
-    program_num: 1
+    program_num: 2
     grooming:
       video_grooming:
-        pid: 481
-        closed_caption:
-        - language: ENG
-          service_number: 1
-          digital_cc: 0
-          default_subtitle: true
+        pid: 201
       audio_grooming:
-      - pid: 482
+      - pid: 202
         language: ENG
         skip_processing: false
+      - pid: 203
+        language: ENG
+        skip_processing: true
       scte35_grooming:
-      - pid: 500
+      - pid: 220
         skip_processing: false
-      cc_conversion_mode: EIA608
     srt:
-      host: egress-5ab867c74ec0390058d67126.lrs.vos360.video
+      host: egress-5ab867c74ec0390058d67127.lrs.vos360.video
       port: 7086
       decryption_type: AES_256
-      decryption_key: AIp20gBMTd91vG4yiZm6
+      decryption_key: W7N7v3TVQVPJom2k7ZLz
   source_b:
-    program_num: 1
+    program_num: 2
     grooming:
       video_grooming:
-        pid: 481
-        closed_caption:
-        - language: ENG
-          service_number: 1
-          digital_cc: 0
-          default_subtitle: true
+        pid: 201
       audio_grooming:
-      - pid: 482
+      - pid: 202
         language: ENG
         skip_processing: false
+      - pid: 203
+        language: ENG
+        skip_processing: true
       scte35_grooming:
-      - pid: 500
+      - pid: 220
         skip_processing: false
-      cc_conversion_mode: EIA608
     srt:
-      host: egress-5ab867c74ec0390058d67326.lrs.vos360.video
+      host: egress-5ab867c74ec0390058d67327.lrs.vos360.video
       port: 7086
       decryption_type: AES_256
-      decryption_key: jCZwgLvuDYoCiJ74U5Zv
+      decryption_key: G3BxI32JA78Cj5HGuZDH
