@@ -8,7 +8,7 @@ channel:
     enable: false
     acquisition_point_id: "nbc-news"
     time_offset: 0       
-  publish_name: "nbc-news"
+  publish_name: "nbc-news1"
   is_sport: false
   has_time_shift: true
   single_service: true
