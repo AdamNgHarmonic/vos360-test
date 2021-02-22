@@ -1,0 +1,49 @@
+high_availability:
+  vos_cluster_ip_a: '{{vos_cluster_ip_a}}'
+  vos_cluster_ip_b: '{{vos_cluster_ip_b}}'
+  vos_config_a:
+    client_id: '{{client_id_a}}'
+    client_secret: '{{client_secret_a}}'
+  vos_config_b:
+    client_id: '{{client_id_b}}'
+    client_secret: '{{client_secret_b}}'
+  source_a:
+    program_num: 2
+    grooming:
+      video_grooming:
+        pid: 201
+      audio_grooming:
+      - pid: 202
+        language: ENG
+        skip_processing: false
+      - pid: 203
+        language: ENG
+        skip_processing: true
+      scte35_grooming:
+      - pid: 220
+        skip_processing: false
+    srt:
+      host: egress-5ab867c74ec0390058d67127.lrs.vos360.video
+      port: 7086
+      decryption_type: AES_256
+      decryption_key: W7N7v3TVQVPJom2k7ZLz
+  source_b:
+    program_num: 2
+    grooming:
+      video_grooming:
+        pid: 201
+      audio_grooming:
+      - pid: 202
+        language: ENG
+        skip_processing: false
+      - pid: 203
+        language: ENG
+        skip_processing: true
+      scte35_grooming:
+      - pid: 220
+        skip_processing: false
+    srt:
+      host: egress-5ab867c74ec0390058d67327.lrs.vos360.video
+      port: 7086
+      decryption_type: AES_256
+      decryption_key: G3BxI32JA78Cj5HGuZDH
