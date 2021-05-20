@@ -3,7 +3,7 @@ no_verify: false
 channel:
   id: "{{channel_id}}"
   name: "jc102s5icf_nbc-news"
-  control_state: "ACTIVATED"
+  control_state: "OFF"
   video_insertion:
     enable: false
     acquisition_point_id: "nbc-news"
