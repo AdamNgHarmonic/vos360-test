@@ -3,7 +3,7 @@ no_verify: true
 channel:
   name: WWE_Fastlane_DR_Espanol
   id: '{{channel_id}}'
-  control_state: ACTIVATED
+  control_state: OFF
   signal_loss_slate:
     enable: true
     url: https://moore-demo-content.s3-us-west-2.amazonaws.com/D2-04-4.png
