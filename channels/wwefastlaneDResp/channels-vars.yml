@@ -1,0 +1,18 @@
+---
+no_verify: true
+channel:
+  name: WWE_Fastlane_DR_Espanol
+  id: '{{channel_id}}'
+  control_state: ACTIVATED
+  signal_loss_slate:
+    enable: true
+    url: https://moore-demo-content.s3-us-west-2.amazonaws.com/D2-04-4.png
+  publish_name: wwefastlaneDResp
+  is_sport: false
+  has_time_shift: false
+  single_service: true
+  transcoding_profile_default: d97fa7b5-f3da-fc1a-a03f-9a43067e8cfc
+  transcoding_profile_sport: d97fa7b5-f3da-fc1a-a03f-9a43067e8cfc
+  destination_profile_default: fdd85d65-0b8a-d355-8659-6908aaee1feb
+  destination_profile_sport: fdd85d65-0b8a-d355-8659-6908aaee1feb
+  
