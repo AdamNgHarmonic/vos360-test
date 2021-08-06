@@ -1,0 +1,7 @@
+---
+vos_cluster_ip: "{{vos_cluster_ip_a}}"
+vos_config:
+  client_id: "{{client_id_a}}"
+  client_secret: "{{client_secret_a}}"
+cloud_sources: []
+cloud_edges: []
