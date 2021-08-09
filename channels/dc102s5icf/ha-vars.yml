@@ -14,7 +14,7 @@ high_availability:
       video_grooming:
         pid: 481
         closed_caption:
-          - language: SPA
+          - language: ENG
             service_number: 1
             digital_cc: 1
             default_subtitle: "false"
@@ -33,7 +33,7 @@ high_availability:
       video_grooming:
         pid: 481
         closed_caption:
-          - language: SPA
+          - language: ENG
             service_number: 1
             digital_cc: 1
             default_subtitle: "false"
