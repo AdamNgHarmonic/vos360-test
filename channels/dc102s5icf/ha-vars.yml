@@ -14,7 +14,7 @@ high_availability:
       video_grooming:
         pid: 481
         closed_caption:
-          - language: ENG
+          - language: FRA
             service_number: 1
             digital_cc: 1
             default_subtitle: "false"
