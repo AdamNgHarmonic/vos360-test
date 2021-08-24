@@ -1,15 +1,16 @@
 ---
-no_verify: true
+no_verify: false
 channel:
   id: "{{channel_id}}"
-  name: "dc102s5icf_nbc-news"
+  name: "ec102s5icf_nbc-news"
   control_state: "OFF"
   video_insertion:
     enable: false
     acquisition_point_id: "nbc-news"
     time_offset: 0       
-  publish_name: "nbc-news-d"
+  publish_name: "nbc-news-e"
   is_sport: false
+  service_type: "LIVE_EVENT",
   has_time_shift: true
   single_service: true
   transcoding_profile_default: "9b04f0ec-2785-1c93-17ae-1f5255fcd88b"
