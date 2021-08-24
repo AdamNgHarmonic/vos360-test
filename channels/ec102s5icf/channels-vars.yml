@@ -10,7 +10,7 @@ channel:
     time_offset: 0       
   publish_name: "nbc-news-e"
   is_sport: false
-  service_type: "LIVE_EVENT",
+  service_type: "LIVE_EVENT"
   has_time_shift: true
   single_service: true
   transcoding_profile_default: "9b04f0ec-2785-1c93-17ae-1f5255fcd88b"
