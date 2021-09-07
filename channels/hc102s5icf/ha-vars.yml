@@ -1,0 +1,58 @@
+---
+high_availability:
+  vos_cluster_ip_a: "{{vos_cluster_ip_a}}"
+  vos_cluster_ip_b: "{{vos_cluster_ip_b}}"
+  vos_config_a:
+    client_id: "{{client_id_a}}"
+    client_secret: "{{client_secret_a}}"
+  vos_config_b:
+    client_id: "{{client_id_b}}"
+    client_secret: "{{client_secret_b}}"
+  source_a:
+    program_num: 1
+    grooming:
+      video_grooming:
+        pid: 481
+        closed_caption:
+          - language: ENG
+            service_number: 1
+            digital_cc: 1
+            default_subtitle: "false"
+      audio_grooming:
+        - pid: 483
+          language: ENG
+          skip_processing: false
+    srt:
+      host: "egress-5fea6ef7e875430061be84f1.lrs.vos360.video1"
+      port: 7086   
+      decryption_type: "AES_256" 
+      decryption_key: "nNxZ6Bs4LaALBDJMunuH2" 
+    secondary_srt:
+      host: "egress-5fea6ef7e875430061be84f1.lrs.vos360.video3"
+      port: 7086   
+      decryption_type: "AES_256" 
+      decryption_key: "nNxZ6Bs4LaALBDJMunuH4"	  
+  source_b:
+    program_num: 1
+    grooming:
+      video_grooming:
+        pid: 481
+        closed_caption:
+          - language: ENG
+            service_number: 1
+            digital_cc: 1
+            default_subtitle: "false"
+      audio_grooming:
+        - pid: 483
+          language: ENG
+          skip_processing: false
+    srt:
+      host: "egress-5fea6ef7e875430061be84f1.lrs.vos360.video5"
+      port: 7086
+      decryption_type: "AES_256" 
+      decryption_key: "nNxZ6Bs4LaALBDJMunuH6"  
+    secondary_srt:
+      host: "egress-5fea6ef7e875430061be84f1.lrs.vos360.video6"
+      port: 7086
+      decryption_type: "AES_256" 
+      decryption_key: "nNxZ6Bs4LaALBDJMunuH7"  
