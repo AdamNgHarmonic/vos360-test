@@ -15,7 +15,7 @@ channel:
   single_service: true
   live_event_service_properties:
     liveEventStartTimeInUtc: "2021-12-30T04:18:00Z"
-    liveEventStopTimeInUtc: "2021-12-31T04:21:00Z"
+    liveEventStopTimeInUtc: "2021-12-31T05:21:00Z"
     liveEventId: "4001442"
     liveEventTitle: "Morning News B 12.2"
   transcoding_profile_default: "9b04f0ec-2785-1c93-17ae-1f5255fcd88b"
