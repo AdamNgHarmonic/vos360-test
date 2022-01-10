@@ -4,6 +4,7 @@ channel:
   id: "{{channel_id}}"
   name: "fc102s5icf_nbc-news"
   control_state: "OFF"
+  service_type: "LIVE_EVENT"
   video_insertion:
     enable: false
     acquisition_point_id: "nbc-news"
