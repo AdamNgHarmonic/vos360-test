@@ -11,6 +11,11 @@ channel:
     time_offset: 0       
   publish_name: "nbc-news-f"
   is_sport: false
+  live_event_service_properties:
+    liveEventStartTimeInUtc: "2021-11-16T09:06:11Z"
+    liveEventStopTimeInUtc: "2021-11-16T11:06:11Z"
+    liveEventId: "4001441"
+    liveEventTitle: "Morning News A 12.2"
   has_time_shift: true
   single_service: true
   transcoding_profile_default: "9b04f0ec-2785-1c93-17ae-1f5255fcd88b"
