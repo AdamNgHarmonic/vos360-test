@@ -1,0 +1,49 @@
+---
+no_verify: false
+channel:
+  id: "{{channel_id}}"
+  name: "fc102s5icf_nbc-news"
+  control_state: "OFF"
+  service_type: "LIVE_EVENT"
+  video_insertion:
+    enable: false
+    acquisition_point_id: "nbc-news"
+    time_offset: 0       
+  publish_name: "nbc-news-f"
+  is_sport: false
+  live_event_service_properties:
+    liveEventStartTimeInUtc: "2021-11-16T09:06:11Z"
+    liveEventStopTimeInUtc: "2021-11-16T11:06:11Z"
+    liveEventId: "4001441"
+    liveEventTitle: "Morning News A 12.2"
+  has_time_shift: true
+  single_service: true
+  encryption:
+    enable: true
+    cpix_cks_ctr:
+      kms_url: "https://drm-cks-client-int.dev.cosmic.sky/myConfig/{contentId}?keyIdFormat=UUID"
+      enableHttpsCertValidation: true
+      username: "aladdin" 
+      password: "opensesame"
+      keyRequestSign: true
+      keyResponsesSignatureValidate: true
+      insertDeliveryKeyCertificate: true
+      enforceKeyEncryptionValidation: true
+      resources:
+      - profile_name: "test1"
+        resource_id: "sky-news-sd1" 
+        hls:
+    
+      - profile_name: "test2"
+        resource_id: "sky-news-hd2"
+        dash:
+
+      - profile_name: "test3"
+        resource_id: "sky-news-hd3"
+        ss:
+  transcoding_profile_default: "9b04f0ec-2785-1c93-17ae-1f5255fcd88b"
+  transcoding_profile_sport: "9b04f0ec-2785-1c93-17ae-1f5255fcd88b"
+  destination_profile_default: "5e6a959d-4cd2-4f42-2efc-270cd83df4d0"
+  destination_profile_sport: "5e6a959d-4cd2-4f42-2efc-270cd83df4d0"
+  initialization_timeout: 600
+  
