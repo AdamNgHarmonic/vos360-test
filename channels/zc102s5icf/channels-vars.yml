@@ -1,5 +1,5 @@
 ---
-no_verify: false
+no_verify: true
 channel:
   id: "{{channel_id}}"
   name: "zc102s5icf_nbc-news"
