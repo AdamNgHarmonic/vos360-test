@@ -1,13 +1,13 @@
 ---
 high_availability:
-  vos_cluster_ip_a: "{{vos_cluster_ip_a}}"
-  vos_cluster_ip_b: "{{vos_cluster_ip_b}}"
+  vos_cluster_ip_a: "{{vos_cluster_1_ip_a}}"
+  vos_cluster_ip_b: "{{vos_cluster_1_ip_b}}"
   vos_config_a:
-    client_id: "{{client_id_a}}"
-    client_secret: "{{client_secret_a}}"
+    client_id: "{{vos_cluster_1_client_id_a}}"
+    client_secret: "{{vos_cluster_1_client_secret_a}}"
   vos_config_b:
-    client_id: "{{client_id_b}}"
-    client_secret: "{{client_secret_b}}"
+    client_id: "{{vos_cluster_1_client_id_b}}"
+    client_secret: "{{vos_cluster_1_client_secret_b}}"
   source_a:
     program_num: 1
     grooming:
