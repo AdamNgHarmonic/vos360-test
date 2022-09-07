@@ -14,7 +14,7 @@ channel:
   single_service: true
   transcoding_profile_default: "5cd9394b-94ae-46e7-9489-3fd00885420f"
   transcoding_profile_sport: "5cd9394b-94ae-46e7-9489-3fd00885420f"
-  destination_profile_default: "ab29217d-6d5b-4840-b550-a76e669b77fa"
-  destination_profile_sport: "ab29217d-6d5b-4840-b550-a76e669b77fa"
+  destination_profile_default: "5cd9394b-94ae-46e7-9489-3fd00885420f"
+  destination_profile_sport: "5cd9394b-94ae-46e7-9489-3fd00885420f"
   initialization_timeout: 600
   
