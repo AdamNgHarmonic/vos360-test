@@ -2,7 +2,7 @@
 no_verify: false
 channel:
   id: "{{channel_id}}"
-  name: "hc102s5icf_nbc-news"
+  name: "hc102s5icf_nbc-news1"
   control_state: "OFF"
   video_insertion:
     enable: false
