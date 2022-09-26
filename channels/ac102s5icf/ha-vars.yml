@@ -1,7 +1,7 @@
 ---
 high_availability:
   vos_cluster_ip_a: "ghostbusters-adng1-01.nebula.video"
-  vos_cluster_ip_b: "ghostbusters-adng6-01.nebula.video"
+  vos_cluster_ip_b: "ghostbusters-adng4-01.nebula.video"
   vos_config_a:
     client_id: "d2e1bd3a-63bc-45b4-a363-3612fc4c0c0e"
     client_secret: "52806faffa97bfb215e8b4b0a3a3b4df"
