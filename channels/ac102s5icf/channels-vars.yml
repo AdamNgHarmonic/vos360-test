@@ -2,7 +2,7 @@
 no_verify: false
 channel:
   id: "ac102s5icf"
-  name: "ac102s5icf_nbc-news"
+  name: "ac102s5icf_nbc-news1"
   control_state: "OFF"
   video_insertion:
     enable: false
