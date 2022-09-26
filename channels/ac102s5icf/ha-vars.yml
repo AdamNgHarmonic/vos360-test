@@ -22,6 +22,7 @@ high_availability:
         - pid: 483
           language: ENG
           skip_processing: false
+          labels: blue,green
     srt:
       host: "egress-5fea6ef7e875430061be84f1.lrs.vos360.video"
       port: 7086   
@@ -41,6 +42,7 @@ high_availability:
         - pid: 483
           language: ENG
           skip_processing: false
+          labels: blue,green
     srt:
       host: "egress-5fea6ef7e875430061be84f1.lrs.vos360.video"
       port: 7086
