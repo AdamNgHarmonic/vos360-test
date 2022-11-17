@@ -1,13 +1,13 @@
 ---
 high_availability:
   vos_cluster_ip_a: "ghostbusters-adng1-01.nebula.video"
-  vos_cluster_ip_b: "ghostbusters-adng4-01.nebula.video"
+  vos_cluster_ip_b: "ghostbusters-adng3-01.nebula.video"
   vos_config_a:
-    client_id: "d2e1bd3a-63bc-45b4-a363-3612fc4c0c0e"
-    client_secret: "52806faffa97bfb215e8b4b0a3a3b4df"
+    client_id: "a913f038-9766-433a-a2ed-42232a7285d2"
+    client_secret: "ae01869cfc29414df0a2084df3c37446"
   vos_config_b:
-    client_id: "6d34e9c2-83b6-48cb-a895-fde112762a4a"
-    client_secret: "e1b20e2d6fc7a7ea7d49d4dea6427be5"
+    client_id: "068891a1-629e-4b54-bbb0-99e2828e46c4"
+    client_secret: "91c2683afc3926c68a002e5b9ea547d4"
   source_a:
     program_num: 1
     grooming:
