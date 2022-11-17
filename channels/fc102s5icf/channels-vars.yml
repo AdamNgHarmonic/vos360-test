@@ -2,7 +2,7 @@
 no_verify: false
 channel:
   id: "{{channel_id}}"
-  name: "fc102s5icf_nbc-news1"
+  name: "fc102s5icf_nbc-news2"
   control_state: "OFF"
   service_type: "LIVE_EVENT"
   video_insertion:
