@@ -22,8 +22,7 @@ high_availability:
         - pid: 483
           language: ENG
           skip_processing: false
-          type: CLEAN_EFFECTS
-          labels: blue,green,red
+          type: PROGRAM
     srt:
       host: "egress-5fea6ef7e875430061be84f1.lrs.vos360.video"
       port: 7086   
