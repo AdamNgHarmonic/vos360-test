@@ -18,8 +18,8 @@ channel:
     liveEventTitle: "Morning News A 12.2"
   has_time_shift: true
   single_service: true
-  transcoding_profile_default: "5cd9394b-94ae-46e7-9489-3fd00885420f"
-  transcoding_profile_sport: "5cd9394b-94ae-46e7-9489-3fd00885420f"
+  transcoding_profile_default: "237a5f1c-fb67-4dea-ad9a-cd5b1e011d12"
+  transcoding_profile_sport: "237a5f1c-fb67-4dea-ad9a-cd5b1e011d12"
   destination_profile_default: "75712290-8605-4373-883a-3c59f37757fb"
   destination_profile_sport: "75712290-8605-4373-883a-3c59f37757fb"
   initialization_timeout: 600
