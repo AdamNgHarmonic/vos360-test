@@ -2,7 +2,7 @@
 no_verify: false
 channel:
   id: "ac102s5icf"
-  name: "ac102s5icf_nbc-news2"
+  name: "ac102s5icf_nbc-news"
   service_type: "LIVE_EVENT"
   control_state: "OFF"
   video_insertion:
