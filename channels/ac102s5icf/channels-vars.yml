@@ -16,6 +16,7 @@ channel:
     liveEventStopTimeInUtc: "2021-11-20T11:06:11Z"
     liveEventId: "4001441"
     liveEventTitle: "Morning News A 12.2"
+    liveEventStatus: "UpcomingReplay"
   has_time_shift: true
   single_service: true
   transcoding_profile_default: "237a5f1c-fb67-4dea-ad9a-cd5b1e011d12"
@@ -23,4 +24,6 @@ channel:
   destination_profile_default: "75712290-8605-4373-883a-3c59f37757fb"
   destination_profile_sport: "75712290-8605-4373-883a-3c59f37757fb"
   initialization_timeout: 600
-  
+  graphic_template:
+    url: "https://filesamples.com/samples/video/swf/sample_1280x720_surfing_with_audio.swf"
+    rss_url: "AdamRssUrl"
