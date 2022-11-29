@@ -1,13 +1,13 @@
 ---
 high_availability:
-  vos_cluster_ip_a: "{{vos_cluster_2_ip_a}}"
-  vos_cluster_ip_b: "{{vos_cluster_2_ip_b}}"
+  vos_cluster_ip_a: "ghostbusters-adng1-01.nebula.video"
+  vos_cluster_ip_b: "ghostbusters-adng2-01.nebula.video"
   vos_config_a:
-    client_id: "{{vos_cluster_2_client_id_a}}"
-    client_secret: "{{vos_cluster_2_client_secret_a}}"
+    client_id: "7aa60111-1729-4b6e-81a0-474c00034efa"
+    client_secret: "68b89b948131d6ed711a719413b88ef1"
   vos_config_b:
-    client_id: "{{vos_cluster_2_client_id_b}}"
-    client_secret: "{{vos_cluster_2_client_secret_b}}"
+    client_id: "115eb5d8-8261-4cf7-8675-a0f64d7e4570"
+    client_secret: "1f52e63e92e9901484138368a8695291"
   source_a:
     program_num: 1
     grooming:
@@ -22,6 +22,7 @@ high_availability:
         - pid: 483
           language: ENG
           skip_processing: false
+          type: VISUAL_IMPAIRED_COMMENTARY
     srt:
       host: "egress-5fea6ef7e875430061be84f1.lrs.vos360.video"
       port: 7086   
