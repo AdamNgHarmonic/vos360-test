@@ -3,11 +3,11 @@ high_availability:
   vos_cluster_ip_a: "ghostbusters-adng1-01.nebula.video"
   vos_cluster_ip_b: "ghostbusters-adng2-01.nebula.video"
   vos_config_a:
-    client_id: "c18775c1-9ce0-446b-a8ce-432fd2731bd2"
-    client_secret: "1584be26bc26a45111446adedbbbdaa5"
+    client_id: "7aa60111-1729-4b6e-81a0-474c00034efa"
+    client_secret: "68b89b948131d6ed711a719413b88ef1"
   vos_config_b:
-    client_id: "9b38f4be-32c7-4188-be48-c4e804084d45"
-    client_secret: "f76674cdbe127782c33b3cd6d32f0111"
+    client_id: "115eb5d8-8261-4cf7-8675-a0f64d7e4570"
+    client_secret: "1f52e63e92e9901484138368a8695291"
   source_a:
     program_num: 1
     grooming:
