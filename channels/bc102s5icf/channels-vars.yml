@@ -22,8 +22,8 @@ channel:
     enable: true
 #   This URL needs to be agreed IE should it be a local directory or a located on an internal Sky server
     trusted_drm_server_certificates_directory: "/installer/ansible-playbooks/customer-defaults/skyuk/host_vars/localhost/trusted/"
-    internal_keys_gen:
-      resources:
+    # internal_keys_gen:
+    #   resources:
 # INTERNAL KEY GEN PARAMETERS 
 #      - profile_name: "HLSinthm1"
 #        resource_id: "3a4f72aa-bde1-4f34-bef0-924cfceb764f"
