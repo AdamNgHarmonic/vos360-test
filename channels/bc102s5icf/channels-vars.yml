@@ -21,7 +21,7 @@ channel:
   encryption:
     enable: true
 #   This URL needs to be agreed IE should it be a local directory or a located on an internal Sky server
-    trusted_drm_server_certificates_directory: "/installer/ansible-playbooks/customer-defaults/skyuk/host_vars/localhost/trusted/"
+    # trusted_drm_server_certificates_directory: "/installer/ansible-playbooks/customer-defaults/skyuk/host_vars/localhost/trusted/"
     # internal_keys_gen:
     #   resources:
 # INTERNAL KEY GEN PARAMETERS 
@@ -35,16 +35,16 @@ channel:
 #          key_retrival_url: "https://127.0.0.1:443/key"
 # CISCO CPIX FOR VGE USES A CLOUD BASED URL AND HTTPS ENABLED - TRUE
 # VGE ENCRYPTION USING ON PREM CISCO KSM USES LOCAL URL & HTTPS ENABLED - FALSE 
-    cisco_vge:
-#      kms_url: "https://stage-sdscloud-ksm.glb.intranet.sky:6711"
-#      enableHttpsCertValidation: true
-      kms_url: "http://ksm-harmonic:6710"
-      enableHttpsCertValidation: false
-      resources:
-      - profile_name: "001_sd"
-        resource_id: "1301"
-      - profile_name: "001_hd"
-        resource_id: "4002"
+#     cisco_vge:
+# #      kms_url: "https://stage-sdscloud-ksm.glb.intranet.sky:6711"
+# #      enableHttpsCertValidation: true
+#       kms_url: "http://ksm-harmonic:6710"
+#       enableHttpsCertValidation: false
+#       resources:
+#       - profile_name: "001_sd"
+#         resource_id: "1301"
+#       - profile_name: "001_hd"
+#         resource_id: "4002"
 # CPIX CKS WILL BE USED TO ENCRYPT DASH CLOUD STREAMS
     cpix_cks_list:
       - kms_url: "http://content-key-server:8080/cpix/v2/TEST-UK-LINEAR-1-CENC/{contentId}?keyIdFormat=UUID"
