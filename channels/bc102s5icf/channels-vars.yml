@@ -75,12 +75,12 @@ channel:
         - profile_name: "004_hd"
           resource_id: "004_hdhmdev101"
           hls:
-    internal_kms:
-      resources:
-      - profile_name: "005_sd"
-        resource_id: "005_sd(hmdev101)"
-      - profile_name: "005_hd"
-        resource_id: "005_hd(hmdev101)"
+    # internal_kms:
+    #   resources:
+    #   - profile_name: "005_sd"
+    #     resource_id: "005_sd(hmdev101)"
+    #   - profile_name: "005_hd"
+    #     resource_id: "005_hd(hmdev101)"
   transcoding_profile_default: "237a5f1c-fb67-4dea-ad9a-cd5b1e011d12"
   transcoding_profile_sport: "237a5f1c-fb67-4dea-ad9a-cd5b1e011d12"
   destination_profile_default: "75712290-8605-4373-883a-3c59f37757fb"
