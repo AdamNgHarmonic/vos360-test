@@ -20,67 +20,42 @@ channel:
   single_service: true
   encryption:
     enable: true
-#   This URL needs to be agreed IE should it be a local directory or a located on an internal Sky server
-    # trusted_drm_server_certificates_directory: "/installer/ansible-playbooks/customer-defaults/skyuk/host_vars/localhost/trusted/"
-    # internal_keys_gen:
-    #   resources:
-# INTERNAL KEY GEN PARAMETERS 
-#      - profile_name: "HLSinthm1"
-#        resource_id: "3a4f72aa-bde1-4f34-bef0-924cfceb764f"
-#        external_keys_publishing:
-#          enable: true
-#          publishing_url: "https://127.0.0.1:443/key"
-#          username: "abc"
-#          password: "abc"
-#          key_retrival_url: "https://127.0.0.1:443/key"
-# CISCO CPIX FOR VGE USES A CLOUD BASED URL AND HTTPS ENABLED - TRUE
-# VGE ENCRYPTION USING ON PREM CISCO KSM USES LOCAL URL & HTTPS ENABLED - FALSE 
-#     cisco_vge:
-# #      kms_url: "https://stage-sdscloud-ksm.glb.intranet.sky:6711"
-# #      enableHttpsCertValidation: true
-#       kms_url: "http://ksm-harmonic:6710"
-#       enableHttpsCertValidation: false
-#       resources:
-#       - profile_name: "001_sd"
-#         resource_id: "1301"
-#       - profile_name: "001_hd"
-#         resource_id: "4002"
-# CPIX CKS WILL BE USED TO ENCRYPT DASH CLOUD STREAMS
-    # cpix_cks_list:
-    #   - kms_url: "http://content-key-server:8080/cpix/v2/TEST-UK-LINEAR-1-CENC/{contentId}?keyIdFormat=UUID"
-    #     enableHttpsCertValidation: false
-    #     username: "admin"
-    #     password: "pass"
-    #     resources:
-    #     - profile_name: "003_sd"
-    #       resource_id: "003_sdhmdev101"
-    #       dash:
-    #     - profile_name: "003_sm"
-    #       resource_id: "003_smhmdev101"
-    #       dash:
-    #     - profile_name: "003_hd"
-    #       resource_id: "003_hdhmdev101"
-    #       dash:
-    #     - profile_name: "003_hm"
-    #       resource_id: "003_hmhmdev101"
-    #       dash:
-    #   - kms_url: "http://content-key-server:8080/cpix/v2/TEST-UK-LINEAR-1-CBCS/{contentId}?keyIdFormat=UUID"
-    #     enableHttpsCertValidation: false
-    #     username: "admin"
-    #     password: "pass"
-    #     resources:
-    #     - profile_name: "004_sd"
-    #       resource_id: "004_sdhmdev101"
-    #       hls:
-    #     - profile_name: "004_hd"
-    #       resource_id: "004_hdhmdev101"
-    #       hls:
-    # internal_kms:
-    #   resources:
-    #   - profile_name: "005_sd"
-    #     resource_id: "005_sd(hmdev101)"
-    #   - profile_name: "005_hd"
-    #     resource_id: "005_hd(hmdev101)"
+    cpix_cks:
+      kms_url: "https://harmonic:JrG0h2FIkOKDFErW@cks-thirdparty.ovp.stable-int.peacocktv.com/cks/cpix/v2/TEST-US-SLE-1-CBCS/{contentId}?keyIdFormat=UUID"
+      enableHttpsCertValidation: false
+      username: "harmonic"
+      password: "JrG0h2FIkOKDFErW"
+      httpMethod: "POST"
+      cpixDocumentVersion: "e_2_3"
+      keyRequestSign: true
+      keyResponsesSignatureValidate: false
+      insertDeliveryKeyCertificate: true
+      enforceKeyEncryptionValidation: false
+      resources:
+        - profile_name: "CBC-4s"
+          resource_id: "peacock_883480"
+          cmaf: null
+        - profile_name: "CBC-4s-v2"
+          resource_id: "peacock_883480"
+          cmaf: null
+    cpix_cks_ctr:
+      kms_url: "https://harmonic:JrG0h2FIkOKDFErW@cks-thirdparty.ovp.stable-int.peacocktv.com/cks/cpix/v2/TEST-US-SLE-1-CENC/{contentId}?keyIdFormat=UUID"
+      enableHttpsCertValidation: false
+      username: "harmonic"
+      password: "JrG0h2FIkOKDFErW"
+      httpMethod: "POST"
+      cpixDocumentVersion: "e_2_3"
+      keyRequestSign: true
+      keyResponsesSignatureValidate: false
+      insertDeliveryKeyCertificate: true
+      enforceKeyEncryptionValidation: false
+      resources:
+        - profile_name: "CTR-4s"
+          resource_id: "peacock_883480"
+          cmaf: null
+        - profile_name: "CTR-4s-v2"
+          resource_id: "peacock_883480"
+          cmaf: null
   transcoding_profile_default: "237a5f1c-fb67-4dea-ad9a-cd5b1e011d12"
   transcoding_profile_sport: "237a5f1c-fb67-4dea-ad9a-cd5b1e011d12"
   destination_profile_default: "75712290-8605-4373-883a-3c59f37757fb"
