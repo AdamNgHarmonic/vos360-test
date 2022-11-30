@@ -46,35 +46,35 @@ channel:
 #       - profile_name: "001_hd"
 #         resource_id: "4002"
 # CPIX CKS WILL BE USED TO ENCRYPT DASH CLOUD STREAMS
-    cpix_cks_list:
-      - kms_url: "http://content-key-server:8080/cpix/v2/TEST-UK-LINEAR-1-CENC/{contentId}?keyIdFormat=UUID"
-        enableHttpsCertValidation: false
-        username: "admin"
-        password: "pass"
-        resources:
-        - profile_name: "003_sd"
-          resource_id: "003_sdhmdev101"
-          dash:
-        - profile_name: "003_sm"
-          resource_id: "003_smhmdev101"
-          dash:
-        - profile_name: "003_hd"
-          resource_id: "003_hdhmdev101"
-          dash:
-        - profile_name: "003_hm"
-          resource_id: "003_hmhmdev101"
-          dash:
-      - kms_url: "http://content-key-server:8080/cpix/v2/TEST-UK-LINEAR-1-CBCS/{contentId}?keyIdFormat=UUID"
-        enableHttpsCertValidation: false
-        username: "admin"
-        password: "pass"
-        resources:
-        - profile_name: "004_sd"
-          resource_id: "004_sdhmdev101"
-          hls:
-        - profile_name: "004_hd"
-          resource_id: "004_hdhmdev101"
-          hls:
+    # cpix_cks_list:
+    #   - kms_url: "http://content-key-server:8080/cpix/v2/TEST-UK-LINEAR-1-CENC/{contentId}?keyIdFormat=UUID"
+    #     enableHttpsCertValidation: false
+    #     username: "admin"
+    #     password: "pass"
+    #     resources:
+    #     - profile_name: "003_sd"
+    #       resource_id: "003_sdhmdev101"
+    #       dash:
+    #     - profile_name: "003_sm"
+    #       resource_id: "003_smhmdev101"
+    #       dash:
+    #     - profile_name: "003_hd"
+    #       resource_id: "003_hdhmdev101"
+    #       dash:
+    #     - profile_name: "003_hm"
+    #       resource_id: "003_hmhmdev101"
+    #       dash:
+    #   - kms_url: "http://content-key-server:8080/cpix/v2/TEST-UK-LINEAR-1-CBCS/{contentId}?keyIdFormat=UUID"
+    #     enableHttpsCertValidation: false
+    #     username: "admin"
+    #     password: "pass"
+    #     resources:
+    #     - profile_name: "004_sd"
+    #       resource_id: "004_sdhmdev101"
+    #       hls:
+    #     - profile_name: "004_hd"
+    #       resource_id: "004_hdhmdev101"
+    #       hls:
     # internal_kms:
     #   resources:
     #   - profile_name: "005_sd"
@@ -86,6 +86,6 @@ channel:
   destination_profile_default: "75712290-8605-4373-883a-3c59f37757fb"
   destination_profile_sport: "75712290-8605-4373-883a-3c59f37757fb"
   initialization_timeout: 600
-  graphic_template:
-    url: "https://filesamples.com/samples/video/swf/sample_1280x720_surfing_with_audio.swf"
-    rss_url: "AdamRssUrl"
+  # graphic_template:
+  #   url: "https://filesamples.com/samples/video/swf/sample_1280x720_surfing_with_audio.swf"
+  #   rss_url: "AdamRssUrl"
